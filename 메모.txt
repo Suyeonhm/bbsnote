@@ -1,0 +1,30 @@
+python manage.py  => 대부분 명령어 앞에 넣음
+
+
+db생성 python manage.py migrate 하면 db.sqlite3이 생성됨.
+
+* superuser만들기 
+  => python manage.py createsuperuser
+
+*https://me2.kr/3mcyc
+* 현재프로젝트에 장고를 설치하겠다
+  = > django-admin start
+
+D/mysite
+
+visualstudio - file - openfolder
+
+python manage.py runserver => 서버올라옴
+
+익스프롤러 -> localhost:8000
+
+
+*서버중지 => ctrl+c
+super user 만들기 => 22p python manage.py createsuperuser
+
+url 등록 -> view 작업 -> template
+
+*MVC VS MTV
+  - MVC : 웹프로그래밍에서 자주 사용하는 디자인패턴 (Model-View-Controller)
+  - MTV : 장고 디자인 패턴 (Model-template-View)
+  - Model:Model - View:template - Controller:View
